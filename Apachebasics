@@ -1,0 +1,14 @@
+Download the Apachetomcat and unzip the tomcat
+after unzip to install the tomcat in which folder to u want to install the tomcat
+ Install the tomcat their reqired the java path on your system 
+To run the Tomcat go to services to run the tomcat
+If u want to run the warfile applications in tomcat 
+Download the warfile Application and the Application put on the webapps folder in the tomcat
+Webapp folder is a  application run folder in the Tomcat
+To restart the Tomcat
+the application will be run 
+u r allso setup the Tomcat for manually when the system is on, the tomcat services is automatically started
+The services is not run to check the logs ,to idenditify the logs.in tomcat logs folder to check the logs
+Ater download,installation,started the services,we will the local host 
+localhost:portnumber
+u want change the port number , in config folder to change the port number .to edit the port number and saveit and restart the tomcatservices
