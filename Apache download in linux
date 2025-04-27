@@ -1,0 +1,14 @@
+apt upadte 
+java (checking the java in local)
+ apt install default-jdk (download the java)
+ java -version (java version)
+ which java (java path)
+  useradd -r -m -U -d /opt/tomcat -s /bin/false tomcat (create a new username tomcat and creating a new groupnametomcat and give the tomcatuser permission to tomcat group)
+ wget link adress (tomcat linkadress to download the tomcat) 
+  tar xf apache-tomcat-10.1.40.tar.gz -C /opt/tomcat (untar the link and install in tomcatfolder in opt)
+ chown -R tomcat: /opt/tomcat/* (give the ownership of the tomcatuser in opt/tomcatfolder)
+ sh -c 'chmod +x /opt/tomcat/updated/bin/*.sh'(run the tomcatfolder sh in all programs)
+   vi  /etc/systemd/system/tomcat.service (edit the file full the script by using ur path)
+ systemctl start tomcat (start the tomcat)
+    systemctl status tomcat(status the tomcat)
+    
